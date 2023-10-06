@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <Id>1</Id>
+    <Name>Nkazi</Name>
+    <Surname>Mthembu</Surname>
+    <Username>nkazimulo</Username>
+    <Cellphone>0762996843</Cellphone>
+  </User>
+  <User>
+    <Id>2</Id>
+    <Name>Kim</Name>
+    <Surname>Ngoza</Surname>
+    <Username>kimi</Username>
+    <Cellphone>0765432187</Cellphone>
+  </User>
+  <User>
+    <Id>3</Id>
+    <Name>Tony</Name>
+    <Surname>Mthembu</Surname>
+    <Username>tony</Username>
+    <Cellphone>0763996842</Cellphone>
+  </User>
+</Users>
