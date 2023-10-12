@@ -177,6 +177,11 @@ namespace UserCapturer.Controllers
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(user.Name) || string.IsNullOrWhiteSpace(user.Surname) || string.IsNullOrWhiteSpace(user.Username) || string.IsNullOrWhiteSpace(user.Cellphone))
+                {
+                    TempData["ErrorMessage"] = "Make sure all fields are filled and not empty.";
+                    return View(user);
+                }
                 if (!CommonFunctions.IsValidPhoneNumber(user.Cellphone))
                 {
                     TempData["ErrorMessage"] = "Invalid Cellphone number.";
@@ -222,7 +227,7 @@ namespace UserCapturer.Controllers
             XElement targetRecord = xmlDoc.Descendants("User").FirstOrDefault(record => (int)record.Element("Id") == id);
 
 
-            // Edit the record if it exists
+            // Delete the record if it exists
             if (targetRecord != null)
             {
 

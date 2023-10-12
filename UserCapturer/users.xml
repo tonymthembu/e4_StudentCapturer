@@ -21,4 +21,11 @@
     <Username>tony</Username>
     <Cellphone>0763996842</Cellphone>
   </User>
+  <User>
+    <Id>4</Id>
+    <Name>Thendo</Name>
+    <Surname>Savhasa</Surname>
+    <Username>thendo</Username>
+    <Cellphone>0765432345</Cellphone>
+  </User>
 </Users>
